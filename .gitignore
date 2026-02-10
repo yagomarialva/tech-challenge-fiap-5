@@ -1,0 +1,17 @@
+# Ignorar ambiente virtual
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Ignorar arquivos de configuração sensíveis
+.env
+
+# Ignorar datasets brutos (são pesados e não devem ir pro git)
+dataset_bruto/
+downloads/
+
+# Ignorar vídeos ou imagens de teste geradas
+*.mp4
+*.jpg
+*.png
